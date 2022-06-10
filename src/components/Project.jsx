@@ -12,7 +12,7 @@ const Project = ({ image, name, text, link, code, tags }) => {
           src={image}
           alt="img"
         />
-        <div className="hidden group-hover:block absolute w-full top-10 duration-300">
+        <div className="hidden group-hover:block absolute w-full top-20 md:top-10 duration-300">
           <a
             href={link}
             className="w-1/3 mx-auto flex justify-center rounded-lg m-1 py-2 bg-pfBgLight text-white hover:bg-pfBlueLight duration-200"
