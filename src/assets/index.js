@@ -5,3 +5,4 @@ export { default as sort } from "./sort.png";
 export { default as gpt3 } from "./gpt3.png";
 export { default as ecommerce } from "./ecommerce.png";
 export { default as rest } from "./rest.png";
+export { default as crypto } from "./crypto.png";

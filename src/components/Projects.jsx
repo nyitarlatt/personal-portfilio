@@ -1,15 +1,14 @@
 import React from "react";
 
-import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import Project from "./Project";
 
-import { cat, note, sort, rest, ecommerce, gpt3 } from "../assets";
+import { cat, note, sort, rest, ecommerce, gpt3, crypto } from "../assets";
 
 const Projects = () => {
   return (
     <div className="mb-4">
       <div className="w-5/6 mx-auto flex flex-wrap justify-center max-w-fit">
-        <div className="w-1/7 md:w-80 bg-pfBgLight p-3 flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-105 duration-300">
+        <div className="w-1/7 md:w-80 bg-pfBgLight p-3 flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-[1.03] duration-300">
           <Project
             image={ecommerce}
             name="Online Store"
@@ -19,7 +18,7 @@ const Projects = () => {
             tags={["NextJs", "Sanity", "ContextApi", "Stripe"]}
           />
         </div>
-        <div className="w-1/7 md:w-80 bg-pfBgLight p-3 flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-105 duration-300">
+        <div className="w-1/7 md:w-80 bg-pfBgLight p-3 flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-[1.03] duration-300">
           <Project
             image={note}
             name="Note App"
@@ -29,7 +28,7 @@ const Projects = () => {
             tags={["ReactJs", "TailwindCss", "ContextApi"]}
           />
         </div>
-        <div className="w-1/7 md:w-80 bg-pfBgLight p-3  flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-105 duration-300">
+        <div className="w-1/7 md:w-80 bg-pfBgLight p-3  flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-[1.03] duration-300">
           <Project
             image={cat}
             name="Oregano"
@@ -41,7 +40,7 @@ const Projects = () => {
             tags={["ReactJs", "TailwindCss", "ContextApi"]}
           />
         </div>
-        <div className="w-1/7 md:w-80 bg-pfBgLight p-3  flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-105 duration-300">
+        <div className="w-1/7 md:w-80 bg-pfBgLight p-3  flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-[1.03] duration-300">
           <Project
             image={gpt3}
             name="GPT-3"
@@ -51,7 +50,7 @@ const Projects = () => {
             tags={["ReactJs", "Css"]}
           />
         </div>
-        <div className="w-1/7 md:w-80 bg-pfBgLight p-3  flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-105 duration-300">
+        <div className="w-1/7 md:w-80 bg-pfBgLight p-3  flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-[1.03] duration-300">
           <Project
             image={rest}
             name="Gericht Restruent"
@@ -61,7 +60,7 @@ const Projects = () => {
             tags={["ReactJs", "Css"]}
           />
         </div>
-        <div className="w-1/7 md:w-80 bg-pfBgLight p-3 flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-105 duration-300">
+        <div className="w-1/7 md:w-80 bg-pfBgLight p-3 flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-[1.03] duration-300">
           <Project
             image={sort}
             name="Sorting Visualizer"
@@ -69,6 +68,16 @@ const Projects = () => {
             link="https://nyitarlatt.github.io/sorting-visualizer/"
             code="https://github.com/nyitarlatt/sorting-visualizer"
             tags={["HTML", "CSS", "JavaScript"]}
+          />
+        </div>
+        <div className="w-1/7 md:w-80 bg-pfBgLight p-3 flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-[1.03] duration-300">
+          <Project
+            image={crypto}
+            name="Cryptoverse"
+            text="A cryptocurency website where you users can read cryptocurrency news and market"
+            link="https://cryptoapp-react-practice.vercel.app/"
+            code="https://github.com/nyitarlatt/cryptoapp_react-practice"
+            tags={["ReactJs", "AntDesign", "redus-toolkit"]}
           />
         </div>
       </div>
