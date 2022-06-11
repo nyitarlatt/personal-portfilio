@@ -6,3 +6,8 @@ export { default as gpt3 } from "./gpt3.png";
 export { default as ecommerce } from "./ecommerce.png";
 export { default as rest } from "./rest.png";
 export { default as crypto } from "./crypto.png";
+export { default as bgl } from "./bgl.png";
+export { default as bgs } from "./bgs.png";
+export { default as stars } from "./stars.png";
+export { default as outline } from "./outline.png";
+export { default as fullbg } from "./fullbg.png";

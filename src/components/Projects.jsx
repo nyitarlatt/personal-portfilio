@@ -77,7 +77,7 @@ const Projects = () => {
             text="A cryptocurency website where you users can read cryptocurrency news and market"
             link="https://cryptoapp-react-practice.vercel.app/"
             code="https://github.com/nyitarlatt/cryptoapp_react-practice"
-            tags={["ReactJs", "AntDesign", "redus-toolkit"]}
+            tags={["ReactJs", "AntDesign", "Redux-toolkit"]}
           />
         </div>
       </div>
