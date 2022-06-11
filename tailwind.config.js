@@ -16,9 +16,11 @@ module.exports = {
         pfTextLight: "#d9d7df",
         pfBlue: "#2a59fe",
         pfBlueLight: "#4a79fe",
+        pfBlack: "#1f1f1f",
       },
       fontFamily: {
-        Lato: ["'Lato'", "sans-serif"],
+        lato: ["'Lato'", "sans-serif"],
+        josefin: ["'Josefin Sans'", "sans-serif"],
       },
     },
   },

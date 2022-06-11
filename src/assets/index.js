@@ -11,3 +11,4 @@ export { default as bgs } from "./bgs.png";
 export { default as stars } from "./stars.png";
 export { default as outline } from "./outline.png";
 export { default as fullbg } from "./fullbg.png";
+export { default as projectData } from "./projectData";

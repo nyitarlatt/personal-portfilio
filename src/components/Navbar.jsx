@@ -9,7 +9,11 @@ const Navbar = () => {
 
   return (
     <div className="relative text-pfTextLight flex items-center justify-between h-16 py-2">
-      <div className="text-xl text-white">DesiGear</div>
+      <div className="text-xl text-white font-josefin cursor-pointer">
+        <a href="#">
+          <i>DesiGear</i>
+        </a>
+      </div>
       <div className="flex justify-between space-x-0 lg:space-x-32">
         <div className="hidden lg:flex space-x-8 items-center">
           <a className="cursor-pointer hover:text-white" href="#">
@@ -29,7 +33,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="hidden md:flex px-4 py-2 border-t-2 border-l-2 border-b border-r rounded-[50%] -rotate-12 cursor-pointer hover:text-white hover:bg-pfBgLight ">
-          <a href="#" className="rotate-12">
+          <a href="#" className="rotate-12 font-josefin">
             Hire Me
           </a>
         </div>
