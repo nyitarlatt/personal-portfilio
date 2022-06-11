@@ -7,7 +7,7 @@ import SendIcon from "@mui/icons-material/Send";
 
 const Contact = () => {
   return (
-    <div className="mb-10">
+    <div id="contact" className="mb-10">
       <h1 className="text-pfText text-center text-4xl font-josefin">
         Contact me
       </h1>

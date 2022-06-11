@@ -29,7 +29,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row justify-between">
+    <div id="home" className="flex flex-col lg:flex-row justify-between">
       <div className="h-fit min-h-[80vh] flex flex-col w-full items-center text-center md:text-start md:items-start md:w-2/3 lg:w-1/3 justify-center ">
         <div className="text-pfTextLight">UI/UI Design</div>
         <div className="text-pfText text-5xl font-bold leading-[3.8rem] mt-3 font-josefin">

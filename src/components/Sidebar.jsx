@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <div className="relative min-h-screen w-2/3 font-josefin">
       <div className="text-pfTextLight -rotate-90 absolute w-52 h-52 left-0 pt-10 lg:pt-20 bottom-32 cursor-pointer">
-        Follow Us -&nbsp;
+        Follow Me -&nbsp;
         <a
           href="https://www.facebook.com/nyitarlatt.dev"
           className="hover:text-white"

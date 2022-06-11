@@ -5,7 +5,7 @@ import { projectData } from "../assets";
 
 const Projects = () => {
   return (
-    <div className="my-10">
+    <div id="projects" className="my-10">
       <h1 className="text-pfText text-4xl font-josefin text-center mb-8">
         Here Some projects I've made
       </h1>

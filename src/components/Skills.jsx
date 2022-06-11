@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Skills = () => {
   const setLevel = (no) => {
@@ -15,7 +15,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="my-16">
+    <div id="skills" className="my-16">
       <div className="text-pfText text-4xl font-josefin text-center mb-8">
         Skills
       </div>

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #home {
   background-image: url("./assets/bg.png");
   background-position: top left;
