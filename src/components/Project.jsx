@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Project = ({ image, name, text, link, code, tags }) => {
   return (
-    <div className="w-1/7 md:w-80 bg-pfBgLight p-3 flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-[1.03] duration-300">
+    <div className="md:w-80 bg-pfBgLight p-3 flex flex-col items-center lg:items-start space-y-2 rounded-xl m-2 hover:scale-[1.03] duration-300">
       <div className="w-full flex flex-col space-y-2">
         <div className="relative group">
           <img

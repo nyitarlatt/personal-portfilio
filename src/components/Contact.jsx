@@ -15,7 +15,7 @@ const Contact = () => {
         Get in touch
       </div>
       <div className="flex flex-col md:flex-row">
-        <div className="w-full md:w-1/3 flex justify-center mb-8">
+        <div className="w-full md:w-2/5 flex justify-center mb-8">
           <div className="w-52 flex flex-col space-y-5">
             <div className="flex space-x-3">
               <div className="flex items-center justify-center text-pfBlue">
@@ -46,7 +46,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-2/3">
+        <div className="w-full md:w-3/5">
           <form className="" action="">
             <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
               Name
