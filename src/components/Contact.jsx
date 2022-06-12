@@ -58,11 +58,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full md:w-3/5">
-          <form
-            action="mailto:nyitarlat@gmail.com"
-            method="post"
-            enctype="text/plains"
-          >
+          <form action="mailto:nyitarlat@gmail.com">
             <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
               Name
             </div>
