@@ -1,14 +1,25 @@
 import React from "react";
 
+import useOnView from "react-useonview";
+
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import SendIcon from "@mui/icons-material/Send";
 
 const Contact = () => {
+  const trigger = useOnView(() => {
+    if (
+      document
+        .getElementById("contact")
+        .classList.contains("animate__fadeInRight")
+    )
+      return;
+    document.getElementById("contact").classList.add("animate__fadeInRight");
+  }, true);
   return (
-    <div id="contact" className="mb-10">
-      <h1 className="text-pfText text-center text-4xl font-josefin">
+    <div ref={trigger} id="contact" className="mb-10 animate__animated">
+      <h1 className="w-full md:w-4/5 px-2 md:px-4 lg:px-0 mx-auto text-pfText text-center text-4xl font-josefin ">
         Contact me
       </h1>
       <div className="text-pfTextLight text-lg text-center mb-10 md:mb-16">
@@ -47,7 +58,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full md:w-3/5">
-          <form className="" action="">
+          <form
+            action="mailto:nyitarlat@gmail.com"
+            method="post"
+            enctype="text/plains"
+          >
             <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
               Name
             </div>

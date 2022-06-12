@@ -9,9 +9,9 @@ const Navbar = () => {
 
   return (
     <div className="relative text-pfTextLight flex items-center justify-between h-16 py-2">
-      <div className="text-xl text-white font-josefin cursor-pointer">
+      <div className="text-xl text-white font-josefin cursor-pointer font-bold">
         <a href="#home">
-          <i>DesiGear</i>
+          <i>NYITARLATT</i>
         </a>
       </div>
       <div className="flex justify-between space-x-0 lg:space-x-32">

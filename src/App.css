@@ -2,15 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
-#bg {
+.App {
   background-image: url("./assets/bg.png");
   background-position: top left;
   background-repeat: no-repeat;
 }
 .animatezz {
   transition: transform 0.15s linear;
-}
-
-.opacity-0 {
-  opacity: 0;
+  
 }

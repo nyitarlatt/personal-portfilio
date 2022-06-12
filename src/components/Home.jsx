@@ -29,21 +29,24 @@ const Home = () => {
   }, []);
 
   return (
-    <div id="home" className="flex flex-col lg:flex-row justify-between">
-      <div className="h-fit min-h-[80vh] flex flex-col w-full items-center text-center md:text-start md:items-start md:w-2/3 lg:w-1/3 justify-center ">
+    <div
+      id="home"
+      className="w-full md:w-4/5 px-2 md:px-4 lg:px-0 mx-auto flex flex-col lg:flex-row justify-between pt-20"
+    >
+      <div className="h-fit min-h-[90vh] flex flex-col w-full items-center text-center md:text-start md:items-start md:w-2/3 lg:w-1/3 justify-center ">
         <div className="text-pfTextLight">UI/UI Design</div>
-        <div className="text-pfText text-5xl font-bold leading-[3.8rem] mt-3 font-josefin">
+        <div className="text-pfText text-5xl font-bold leading-[3.8rem] mt-3 font-josefin animate__animated animate__fadeInUp">
           Nyi Tar Latt <br />
           Frontend <br />
           Developer <br />
         </div>
-        <div className="text-pfTextLight mt-10 font-josefin">
+        <div className="text-pfTextLight mt-10 font-josefin animate__animated animate__fadeInUp">
           Hi, I'm Nyi Tar Latt. I am Frontend Developer specialized in ReactJS
           and NextJS development
         </div>
 
-        <div className="text-pfText py-3 px-7 bg-pfBlue rounded-lg w-fit cursor-pointer hover:bg-pfBlueLight mt-10">
-          Contact Me
+        <div className="text-pfText py-3 px-7 bg-pfBlue rounded-lg w-fit cursor-pointer hover:bg-pfBlueLight mt-10 animate__animated animate__fadeInUp">
+          <a href="tel:09958843640">Contact Me</a>
         </div>
       </div>
       <div className="relative w-1/2">
