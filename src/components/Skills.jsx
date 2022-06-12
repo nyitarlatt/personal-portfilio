@@ -82,7 +82,7 @@ const Skills = () => {
             <div className="w-full aspect-square bg-pfBgLight rounded-full absolute right-0 z-20"></div>
 
             <div className="cpb-inner bg-pfBg rounded-full w-11/12 aspect-square flex items-center justify-center z-40">
-              <div className="text-4xl font-bold w-1/5 aspect-square text-pfText ">
+              <div className="text-2xl md:text-4xl font-bold w-1/5 aspect-square text-pfText ">
                 <span id="firstnum">0</span>%
               </div>
             </div>
@@ -99,7 +99,7 @@ const Skills = () => {
             <div className="w-full aspect-square bg-pfBgLight rounded-full absolute right-0 z-20"></div>
 
             <div className="cpb-inner bg-pfBg rounded-full w-11/12 aspect-square flex items-center justify-center z-40">
-              <div className="text-3xl font-bold w-1/5 aspect-square text-pfText ">
+              <div className="text-2xl md:text-4xl font-bold w-1/5 aspect-square text-pfText ">
                 <span id="secondnum">0</span>%
               </div>
             </div>
@@ -116,13 +116,13 @@ const Skills = () => {
             <div className="w-full aspect-square bg-pfBgLight rounded-full absolute right-0 z-20"></div>
 
             <div className="cpb-inner bg-pfBg rounded-full w-11/12 aspect-square flex items-center justify-center z-40">
-              <div className="text-4xl font-bold w-1/5 aspect-square text-pfText ">
+              <div className="text-2xl md:text-4xl font-bold w-1/5 aspect-square text-pfText ">
                 <span id="thirdnum">0</span>%
               </div>
             </div>
           </div>
           <div className="text-pfText text-3xl text-center mt-8 font-josefin">
-            Html+Css+Javascript
+            Javascript
           </div>
         </div>
         <div className="aspect-[3/4] w-full md:w-5/12 lg:w-1/5 m-2">
@@ -133,7 +133,7 @@ const Skills = () => {
             <div className="w-full aspect-square bg-pfBgLight rounded-full absolute right-0 z-20"></div>
 
             <div className="cpb-inner bg-pfBg rounded-full w-11/12 aspect-square flex items-center justify-center z-40">
-              <div className="text-3xl font-bold w-1/5 aspect-square text-pfText ">
+              <div className="text-2xl md:text-4xl font-bold w-1/5 aspect-square text-pfText ">
                 <span id="fourthnum">0</span>%
               </div>
             </div>
