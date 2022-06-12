@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#home {
+#bg {
   background-image: url("./assets/bg.png");
   background-position: top left;
   background-repeat: no-repeat;

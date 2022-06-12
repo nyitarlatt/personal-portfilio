@@ -23,7 +23,7 @@ const Contact = () => {
               </div>
               <div className="">
                 <h2 className="text-pfText text-xl font-josefin">Phone</h2>
-                <div className="text-pfTextLight">09 768964267</div>
+                <div className="text-pfTextLight">09 958843640</div>
               </div>
             </div>
             <div className="flex space-x-3">

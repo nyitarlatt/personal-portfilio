@@ -33,7 +33,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="hidden md:flex px-4 py-2 border-t-2 border-l-2 border-b border-r rounded-[50%] -rotate-12 cursor-pointer hover:text-white hover:bg-pfBgLight ">
-          <a href="#" className="rotate-12 font-josefin">
+          <a href="tel:09958843640" className="rotate-12 font-josefin">
             Hire Me
           </a>
         </div>

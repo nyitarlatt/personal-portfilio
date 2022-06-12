@@ -15,7 +15,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App bg-pfBg relative font-lato">
-      <div id="home" className="bg-pfBg">
+      <div id="bg" className="bg-pfBg">
         <div className="sticky top-0 z-50 bg-pfBgLight/70">
           <div className="w-4/5 mx-auto">
             <Navbar />
