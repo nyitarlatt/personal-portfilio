@@ -16,7 +16,7 @@ const Navbar = () => {
           <i>NYITARLATT</i>
         </a>
       </div>
-      <div className="flex justify-between space-x-0 lg:space-x-32">
+      <div className="flex justify-between space-x-0 lg:space-x-20">
         <div className="hidden lg:flex space-x-8 items-center">
           <a className="cursor-pointer hover:text-white" href="#about">
             About
@@ -30,18 +30,16 @@ const Navbar = () => {
           <a className="cursor-pointer hover:text-white" href="#contact">
             Contact
           </a>
-        </div>
-        <div className="flex space-x-2">
-          <div className="hidden md:flex px-4 py-2 border-t-2 border-l-2 border-b border-r rounded-[50%] -rotate-12 cursor-pointer hover:text-white hover:bg-pfBgLight ">
-            <a href="tel:09958843640" className="rotate-12 font-josefin">
-              Hire Me
-            </a>
-          </div>
           <a
+            className="cursor-pointer hover:text-white border-2 px-2 rounded-lg border-pfText hover:bg-pfBlueLight text-center"
             href={resume}
-            className="hidden md:flex cursor-pointer text-white bg-pfBlue hover:bg-pfBlueLight items-center jusitfy-center px-2 rounded-lg"
           >
-            Download Cv
+            Download CV
+          </a>
+        </div>
+        <div className="hidden md:flex px-4 py-2 border-t-2 border-l-2 border-b border-r rounded-[50%] -rotate-12 cursor-pointer hover:text-white hover:bg-pfBgLight ">
+          <a href="tel:09958843640" className="rotate-12 font-josefin">
+            Hire Me
           </a>
         </div>
       </div>
@@ -79,16 +77,16 @@ const Navbar = () => {
             >
               contact
             </a>
+            <a
+              className="cursor-pointer hover:text-white p-2 hover:bg-pfBgLight"
+              href={resume}
+            >
+              Download Resume
+            </a>
           </div>
           <div className="flex md:hidden p-2 cursor-pointer hover:text-white hover:bg-pfBgLight">
             <a href="tel:09958843640"> Hire Me</a>
           </div>
-          <a
-            className="flex md:hidden w-full cursor-pointer hover:text-white p-2 hover:bg-pfBgLight"
-            href={resume}
-          >
-            Download CV
-          </a>
         </div>
       )}
     </div>

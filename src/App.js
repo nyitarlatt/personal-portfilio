@@ -22,8 +22,7 @@ function App() {
 
     //nav scroll hide
     document.addEventListener("scroll", () => {
-      const currentScroll =
-        window.pageYOffset || document.documentElement.scrollTop;
+      const currentScroll = window.pageYOffset || window.scrollY;
       if (currentScroll > lastScrollTop) {
         el.classList.add("hidden");
       } else {

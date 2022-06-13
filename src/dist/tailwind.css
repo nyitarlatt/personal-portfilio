@@ -955,6 +955,16 @@ video {
   border-color: rgb(42 89 254 / var(--tw-border-opacity));
 }
 
+.border-pfBlueLight {
+  --tw-border-opacity: 1;
+  border-color: rgb(74 121 254 / var(--tw-border-opacity));
+}
+
+.border-pfText {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 254 254 / var(--tw-border-opacity));
+}
+
 .bg-pfBgLight\/70 {
   background-color: rgb(68 66 95 / 0.7);
 }
@@ -1306,6 +1316,16 @@ video {
   background-color: rgb(68 66 95 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-pfText:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 254 254 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-pfTextLight:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 215 223 / var(--tw-bg-opacity));
+}
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1503,6 +1523,18 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(8rem * var(--tw-space-x-reverse));
     margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-x-20 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(5rem * var(--tw-space-x-reverse));
+    margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:bg-green-400 {
