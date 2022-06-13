@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
           <a
             href={resume}
-            className="hidden md:flex cursor-pointer text-white bg-pfBlue cursor:bg-pf-BlueLight items-center jusitfy-center px-2 rounded-lg"
+            className="hidden md:flex cursor-pointer text-white bg-pfBlue hover:bg-pfBlueLight items-center jusitfy-center px-2 rounded-lg"
           >
             Download Cv
           </a>
