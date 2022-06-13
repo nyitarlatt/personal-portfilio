@@ -56,7 +56,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full md:w-3/5 px-4 md:pr-32 ">
-          <form action="mailto:nyitarlat@gmail.com">
+          <form action="mailto:nyitarlat@gmail.com" autoComplete="off">
             <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
               Name
             </div>

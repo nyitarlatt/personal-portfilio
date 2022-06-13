@@ -41,7 +41,7 @@ const Skills = () => {
 
       setTimeout(() => {
         el.appendChild(stick);
-      }, 6 * i);
+      }, 7 * i);
     }
   };
 
@@ -51,7 +51,7 @@ const Skills = () => {
     for (let i = 0; i <= no; i++) {
       setTimeout(() => {
         el.innerHTML = i;
-      }, 20 * i);
+      }, 25 * i);
     }
   };
 

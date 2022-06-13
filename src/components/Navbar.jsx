@@ -23,7 +23,7 @@ const Navbar = () => {
             Projects
           </a>
           <a className="cursor-pointer hover:text-white" href="#skills">
-            Testimonial
+            Skills
           </a>
           <a className="cursor-pointer hover:text-white" href="#contact">
             Contact

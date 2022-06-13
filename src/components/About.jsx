@@ -21,9 +21,12 @@ const About = () => {
         About Me
       </h1>
       <p className="">
-        I am currently a student and Frontend developer. Strongly interested in
-        Computer Science, Software Engineering and Programming. I like to learn
-        new technologies and exploring others programming fields.
+        I am currently a Frontend developer specilize in ReactJs and NextJs.
+        Strongly interested in Computer Science, Software Engineering and
+        Programming. I like to learn new technologies and exploring others
+        programming fields. I also like to collaborate with others teams and
+        sharing opinions each other to improve or skills and expend our tech
+        field. Superhero flims and music are my entertainment.
       </p>
     </div>
   );

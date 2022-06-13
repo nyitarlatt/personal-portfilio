@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import { bgl, bgs, stars, outline } from "../assets";
+import { bgl, bgs, stars, avatar } from "../assets";
 
 const Home = () => {
   useEffect(() => {
@@ -52,29 +52,29 @@ const Home = () => {
       <div className="relative w-1/2">
         <div className="w-full h-full relative">
           <img
-            className="relative top-0 left-10 md:left-20 lg:left-0 h-full opacity-0 "
+            className="relative top-0 left-10 md:left-20 lg:left-0 h-full opacity-0 object-contain"
             src={bgl}
             alt="background-1"
           />
           <div className="animate-wrapper w-full h-full absolute top-0 left-10 md:left-20 lg:left-0 ">
             <img
-              className="animatezz absolute top-0 left-10 md:left-20 lg:left-0 h-full"
+              className="animatezz absolute top-0 left-10 md:left-20 lg:left-0 h-full object-contain"
               src={bgl}
               alt="background-1"
             />
             <img
-              className="animatezz absolute top-0 left-10 md:left-20 lg:left-0 h-full"
+              className="animatezz absolute top-0 left-10 md:left-20 lg:left-0 h-full object-contain"
               src={bgs}
               alt="background-1"
             />
             <img
-              className="animatezz absolute top-0 left-10 md:left-20 lg:left-0 h-full"
+              className="animatezz absolute top-0 left-10 md:left-20 lg:left-0 h-full object-contain"
               src={stars}
               alt="background-1"
             />
             <img
-              className="animatezz absolute top-0 left-10 md:left-20 lg:left-0 h-full"
-              src={outline}
+              className="animatezz absolute top-0 left-10 md:left-20 lg:left-0 h-full object-contain"
+              src={avatar}
               alt="background-1"
             />
           </div>

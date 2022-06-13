@@ -29,7 +29,7 @@ const Project = ({ image, name, text, link, code, tags }) => {
           </div>
         </div>
         <h2 className="text-pfText text-2xl font-josefin">{name}</h2>
-        <p className="text-xs text-pfTextLight ">{text}</p>
+        <p className="text-xs text-pfTextLight h-14">{text}</p>
         <div className="flex flex-wrap">
           {tags?.map((tag) => (
             <div className="w-fit bg-pfBg text-white rounded-md px-4 py-1 text-pfTextLight mr-2 mb-2">
