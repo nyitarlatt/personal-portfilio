@@ -10,12 +10,10 @@ import SendIcon from "@mui/icons-material/Send";
 const Contact = () => {
   const trigger = useOnView(() => {
     if (
-      document
-        .getElementById("contact")
-        .classList.contains("animate__fadeInRight")
+      document.getElementById("contact").classList.contains("animate__fadeInUp")
     )
       return;
-    document.getElementById("contact").classList.add("animate__fadeInRight");
+    document.getElementById("contact").classList.add("animate__fadeInUp");
   }, true);
   return (
     <div ref={trigger} id="contact" className="mb-10 animate__animated">

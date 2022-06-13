@@ -7,9 +7,9 @@ const Skills = () => {
   //trigger on observe
   const trigger = useOnView(() => {
     if (
-      !document.getElementById("skills").classList.contains("animate__zoomIn")
+      !document.getElementById("skills").classList.contains("animate__fadeInUp")
     ) {
-      document.getElementById("skills").classList.add("animate__zoomIn");
+      document.getElementById("skills").classList.add("animate__fadeInUp");
     }
     if (bars) return;
     levelUp(270, "one");
@@ -34,7 +34,7 @@ const Skills = () => {
         "h-1/2",
         "absolute",
         "top-0",
-        "bg-cyan-400",
+        "bg-pfBlue",
         "z-30",
         "origin-bottom"
       );
