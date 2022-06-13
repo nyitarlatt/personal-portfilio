@@ -18,12 +18,12 @@ const Projects = () => {
     <div
       ref={trigger}
       id="projects"
-      className="w-full md:w-4/5 px-2 md:px-4 lg:px-0 mx-auto my-10 animate__animated"
+      className="w-full lg:w-4/5 mx-auto my-12 animate__animated"
     >
       <h1 className="text-pfText text-4xl font-josefin text-center mb-8">
         Here Some projects I've made
       </h1>
-      <div className="w-5/6 mx-auto flex flex-wrap justify-center max-w-fit">
+      <div className="w-full px-4 md:px-2 mx-auto max-w-fit grid grid-cols-1 md:grid-cols-3 gap-4">
         {projectData?.map((data, i) => (
           <Project
             key={i}

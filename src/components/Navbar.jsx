@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
+import { resume } from "../assets";
+
 const Navbar = () => {
   const [menuIcon, setMenuIcon] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
@@ -28,13 +30,18 @@ const Navbar = () => {
           <a className="cursor-pointer hover:text-white" href="#contact">
             Contact
           </a>
-          <a className="cursor-pointer hover:text-white" href="#">
-            blogs
-          </a>
         </div>
-        <div className="hidden md:flex px-4 py-2 border-t-2 border-l-2 border-b border-r rounded-[50%] -rotate-12 cursor-pointer hover:text-white hover:bg-pfBgLight ">
-          <a href="tel:09958843640" className="rotate-12 font-josefin">
-            Hire Me
+        <div className="flex space-x-2">
+          <div className="hidden md:flex px-4 py-2 border-t-2 border-l-2 border-b border-r rounded-[50%] -rotate-12 cursor-pointer hover:text-white hover:bg-pfBgLight ">
+            <a href="tel:09958843640" className="rotate-12 font-josefin">
+              Hire Me
+            </a>
+          </div>
+          <a
+            href={resume}
+            className="hidden md:flex cursor-pointer text-white bg-pfBlue cursor:bg-pf-BlueLight items-center jusitfy-center px-2 rounded-lg"
+          >
+            Download Cv
           </a>
         </div>
       </div>
@@ -49,39 +56,39 @@ const Navbar = () => {
         <div className="absolute top-20 right-0 bg-pfBg w-2/3 md:w-1/2 drop-shadow-xl">
           <div className="flex lg:hidden flex-col">
             <a
-              className="cursor-pointer hover:text-white border-b p-2 hover:bg-pfBgLight"
-              href="#"
-            >
-              Home
-            </a>
-            <a
-              className="cursor-pointer hover:text-white border-b p-2 hover:bg-pfBgLight"
-              href="#"
+              className="cursor-pointer hover:text-white p-2 hover:bg-pfBgLight"
+              href="#about"
             >
               About
             </a>
             <a
-              className="cursor-pointer hover:text-white border-b p-2 hover:bg-pfBgLight"
-              href="#"
+              className="cursor-pointer hover:text-white p-2 hover:bg-pfBgLight"
+              href="#projects"
             >
-              Testimonial
+              Projects
             </a>
             <a
-              className="cursor-pointer hover:text-white border-b p-2 hover:bg-pfBgLight"
-              href="#"
+              className="cursor-pointer hover:text-white p-2 hover:bg-pfBgLight"
+              href="#skills"
             >
-              Services
+              Skills
             </a>
             <a
-              className="cursor-pointer hover:text-white border-b p-2 hover:bg-pfBgLight"
-              href="#"
+              className="cursor-pointer hover:text-white p-2 hover:bg-pfBgLight"
+              href="#contact"
             >
-              Blog
+              contact
             </a>
           </div>
-          <div className="flex md:hidden p-2 border-b cursor-pointer hover:text-white hover:bg-pfBgLight">
-            <a href="#"> Hire Me</a>
+          <div className="flex md:hidden p-2 cursor-pointer hover:text-white hover:bg-pfBgLight">
+            <a href="tel:09958843640"> Hire Me</a>
           </div>
+          <a
+            className="flex md:hidden w-full cursor-pointer hover:text-white p-2 hover:bg-pfBgLight"
+            href={resume}
+          >
+            Download CV
+          </a>
         </div>
       )}
     </div>

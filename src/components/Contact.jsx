@@ -56,32 +56,32 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full md:w-3/5 px-4 md:pr-32 ">
-          <form action="mailto:nyitarlat@gmail.com" autoComplete="off">
-            <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
-              Name
-            </div>
-            <input
-              required
-              className="w-full bg-pfBgLight text-pfText py-2 px-5 rounded-b-lg focus:outline-none caret-indigo-100 mb-4 text-lg"
-              type="text"
-            />
-            <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
-              Email
-            </div>
-            <input
-              required
-              className="w-full bg-pfBgLight text-pfText py-2 px-5 rounded-b-lg focus:outline-none caret-indigo-100 mb-4 text-lg"
-              type="email"
-            />
-            <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
-              Message
-            </div>
-            <textarea className="w-full bg-pfBgLight text-pfText py-2 px-5 rounded-b-lg focus:outline-none caret-indigo-100 resize-none h-32 mb-3 text-lg"></textarea>
-            <div className="py-2 px-4 flex items-center space-x-2 bg-pfBlue w-fit rounded-lg hover:bg-pfBlueLight">
-              <button className="text-white text-lg">Send Now</button>
-              <SendIcon className="text-white" />
-            </div>
-          </form>
+          <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
+            Name
+          </div>
+          <input
+            required
+            className="w-full bg-pfBgLight text-pfText py-2 px-5 rounded-b-lg focus:outline-none caret-indigo-100 mb-4 text-lg"
+            type="text"
+          />
+          <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
+            Email
+          </div>
+          <input
+            required
+            className="w-full bg-pfBgLight text-pfText py-2 px-5 rounded-b-lg focus:outline-none caret-indigo-100 mb-4 text-lg"
+            type="email"
+          />
+          <div className="w-full bg-pfBgLight text-pfText pt-2 px-5 rounded-t-lg text-lg">
+            Message
+          </div>
+          <textarea className="w-full bg-pfBgLight text-pfText py-2 px-5 rounded-b-lg focus:outline-none caret-indigo-100 resize-none h-32 mb-3 text-lg"></textarea>
+          <div className="py-2 px-4 flex items-center space-x-2 bg-pfBlue w-fit rounded-lg hover:bg-pfBlueLight">
+            <button className="text-white text-lg">
+              <a href="mailto:nyitarlat@gmail.com">Send Now</a>
+            </button>
+            <SendIcon className="text-white" />
+          </div>
         </div>
       </div>
     </div>

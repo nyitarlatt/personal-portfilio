@@ -46,7 +46,7 @@ const Home = () => {
         </div>
 
         <div className="text-pfText py-3 px-7 bg-pfBlue rounded-lg w-fit cursor-pointer hover:bg-pfBlueLight mt-10 animate__animated animate__fadeInUp">
-          <a href="tel:09958843640">Contact Me</a>
+          <a href="mailto:nyitarlat@gmail.com">Contact Me</a>
         </div>
       </div>
       <div className="relative w-1/2">
