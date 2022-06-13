@@ -9,5 +9,7 @@ html {
 }
 .animatezz {
   transition: transform 0.15s linear;
-  
+}
+#nav {
+  transition: 500ms;
 }
