@@ -31,7 +31,6 @@ const Navbar = () => {
             Contact
           </a>
           <a
-            download
             className="cursor-pointer hover:text-white border-2 px-2 rounded-lg border-pfText hover:bg-pfBlueLight text-center"
             href={resume}
           >
