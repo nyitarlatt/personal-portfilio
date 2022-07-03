@@ -1,1 +1,1 @@
-live - https://personal-portfilio.vercel.app/
+live - https://personalportfilio.vercel.app/
